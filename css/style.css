@@ -1,6 +1,6 @@
 /* header */
 .container{
-    display: flex;
+    
     width: min(100%, 1440px);
     margin: auto; 
     background-color: #DDEAF8 ;
@@ -53,3 +53,66 @@
     
 }
 /* header */
+
+/* section */
+
+.main_section{
+    width: 80%;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.section_header{
+    color: #27187F;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.flex_div{
+    
+
+
+    
+    
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* width: 90%; */
+    align-content: space-between;
+    
+
+
+}
+
+.card1{
+    /* display: flex; */
+    width: 30%;
+    /* width: 400px; */
+    padding: 33px 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px
+
+}
+.card_img{
+    width: 95%;
+    height: 188px;
+
+}
+.card_text{
+    color: #133B3A;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+/* section */
