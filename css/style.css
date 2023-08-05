@@ -1,6 +1,5 @@
 /* header */
 .container{
-    
     width: min(100%, 1440px);
     margin: auto; 
     background-color: #DDEAF8 ;
@@ -71,13 +70,13 @@
     line-height: normal;
 }
 
-.flex_div{
+/* .flex_div{
     
 
 
     
     
-}
+} */
 
 .cards{
     display: flex;
@@ -113,6 +112,73 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal
+    line-height: normal;
 }
 /* section */
+
+
+/* footer */
+.main_footer{
+    width: 100%;
+    background-color: #758BFD ;
+    padding: 75px 98px;
+    
+
+}
+.div_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.column_footer1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.column_footer2{
+    display: flex;
+    justify-content: space-between;
+
+    
+
+}
+
+.contact_text{
+    color: #00CAD7;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; 
+    letter-spacing: 0.2px;
+
+}
+
+.email_text{
+    color: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; 
+    letter-spacing: 0.2px;
+
+}
+.icon{
+    align-items: center;
+    color: #fff;
+}
+.icon_frame{
+
+    height: 55px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.align_scon{
+    padding: 13px 3px;
+}
+/* footer */
